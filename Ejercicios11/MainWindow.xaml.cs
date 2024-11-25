@@ -20,9 +20,49 @@ namespace Ejercicios11
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+        /*
+         private int attemptCount = 0; 
+         private const int MaxAttempts = 2; 
+
+         public MainWindow()
+         {
+             InitializeComponent();
+         }
+
+         private void CorrectButton_Click(object sender, RoutedEventArgs e)
+         {
+             if (attemptCount >= MaxAttempts)
+             {
+
+                 MessageBox.Show("Ya no te quedan intentos.", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                 return;
+             }
+
+             attemptCount++; 
+
+
+             if (Option2.IsChecked == true)
+             {
+                 MessageBox.Show("¡Respuesta correcta!", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
+             }
+             else
+             {
+                 if (attemptCount < MaxAttempts)
+                 {
+                     MessageBox.Show($"Respuesta incorrecta. Te quedan {MaxAttempts - attemptCount} intento(s).", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                 }
+                 else
+                 {
+                     MessageBox.Show("Respuesta incorrecta. Ya no te quedan intentos.", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                 }
+             }
+
+
+             AttemptMessage.Text = $"Intentos realizados: {attemptCount}/{MaxAttempts}";
+         }
+         */
+
+
+        
     }
 }
